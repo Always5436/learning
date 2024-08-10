@@ -4,8 +4,9 @@ const body = document.querySelector("body")
 button.forEach(function(buttons) {
     console.log(buttons);
     buttons.addEventListener("click", function(e){
-        const color = e.target.id
-        switch (color) {
+        const clr = e.target.id
+        console.log(clr)
+        switch (clr) {
             case "blue":
                 body.style.backgroundColor("blue")
                 break;
@@ -13,10 +14,10 @@ button.forEach(function(buttons) {
                 body.style.backgroundColor("white")
                 break;
             case "yellow":
-                body.style.backgroundColor("yellow")
+                body.style.backgroundColor())
                 break;
             case "green":
-                body.style.backgroundColor("green")
+                body.style.backgroundColor(color)
                 break;
             default:
                 break;
