@@ -1,0 +1,15 @@
+.button{
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#green {background-color: #04AA6D;} /* Green */
+#blue {background-color: #008CBA;} /* Blue */
+#yellow {background-color: #ff0;} /* yellow */
+#white {background-color: #fff;} /* white */
