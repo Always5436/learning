@@ -4,22 +4,32 @@ const body = document.querySelector("body")
 button.forEach(function(buttons) {
     console.log(buttons);
     buttons.addEventListener("click", function(e){
+        console.log(e);
         const clr = e.target.id
         console.log(clr)
         switch (clr) {
             case "blue":
-                body.style.backgroundColor("blue")
+                body.style.backgroundColor = clr
+                console.log("this is for color blue");
                 break;
-            case "white":
-                body.style.backgroundColor("white")
+
+            case "swhite":
+                body.style.backgroundColor = "white"
+                console.log("this is for color white");
                 break;
+
             case "yellow":
-                body.style.backgroundColor())
+                body.style.backgroundColor= clr
+                console.log("this is for color yellow");
                 break;
+
             case "green":
-                body.style.backgroundColor(color)
+                body.style.backgroundColor = clr
+                console.log("this is for color green");
                 break;
+
             default:
+                body.style.backgroundColor = "grey"
                 break;
         }
     })
