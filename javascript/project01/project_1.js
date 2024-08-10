@@ -14,7 +14,7 @@ button.forEach(function(buttons) {
                 break;
 
             case "swhite":
-                body.style.backgroundColor = "white"
+                body.style.backgroundColor = clr
                 console.log("this is for color white");
                 break;
 
